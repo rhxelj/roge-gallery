@@ -1,0 +1,33 @@
+/* Your custom styles and vendor hacks
+* If you don't need to HACK third party styles
+* use vendor.scss and @Import to load your vendor to pack them all together,
+* and to keep them separate from SCSS compilation
+*/
+
+
+/* Foundation
+* Import all with: @import "foundation";
+* or select components inside foundation.scss
+*/
+@import "settings";
+//overwrite Foudnations setting below
+@import "foundation";
+
+// Target different screen sizes and device.
+@import "small";
+@import "medium";
+
+
+@media #{$large-up} {
+
+  body {
+    // background: url(../../assets/images/fallback.png);
+    background-image: url(../../assets/images/bg.svg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-size: 100%;
+  }
+
+
+
+}
