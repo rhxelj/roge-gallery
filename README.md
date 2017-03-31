@@ -18,15 +18,18 @@ Website builder - HTML5, Foundation 5, SASS.
 * Clone the project template repo to your local environment. OR You can FORK the repo.
   - git clone --depth 1 [repoUrl] OR Delete .git folder and run git init to clean the history.
   - change remote repo: either run git remote add origin <server> or change [remote "origin"] url =
+
+  You will need BOWER and GRUNT globally installed in your system
+  - npm -g i bower
+  - npm -g i grunt
+
+  Then initialize your project
 * run: npm install
 * run: bower install
-* During development run: grunt
+
+* For development run: grunt
 * For distribution run: grunt dist-build - This will concat and minyfy your scripts
 
 
-
-### Contribution guidelines ###
-
 ### Who do I talk to? ###
-
 * Alejandro Corsino - Repo owner/admin
